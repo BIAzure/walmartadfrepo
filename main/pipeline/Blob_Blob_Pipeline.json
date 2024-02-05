@@ -1,6 +1,17 @@
 {
 	"name": "Blob_Blob_Pipeline",
 	"properties": {
+		"activities": [
+			{
+				"name": "Copy Data",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
 		"annotations": []
 	}
 }
